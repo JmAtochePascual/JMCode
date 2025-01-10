@@ -1,7 +1,7 @@
 
 const Card = () => {
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-md max-w-md">
+    <article className="bg-gray-800 p-4 rounded-lg shadow-md max-w-md">
       <img
         src="https://i.postimg.cc/MKBGMPrn/cafeteria.png"
         alt="Proyecto 1"
@@ -15,18 +15,18 @@ const Card = () => {
           href="https://github.com/jeancarlosatoche/Cafeteria"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full block text-center bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+          className="w-full block text-center text-sm bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
           Ver Proyecto
         </a>
         <a
           href="https://github.com/jeancarlosatoche/Cafeteria"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full block text-center bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
-          Ver Proyecto
+          className="w-full block text-center text-sm bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+          Ver código
         </a>
       </div>
-    </div>
+    </article>
   )
 }
 

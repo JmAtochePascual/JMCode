@@ -5,7 +5,7 @@ import { BriefcaseIcon, ChevronDoubleDownIcon } from '@heroicons/react/24/solid'
 
 const Experiencia = () => {
   return (
-    <section className="py-40">
+    <section className="pt-40">
       <h2 className="mb-20 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Experiencia</h2>
 
       <VerticalTimeline>
