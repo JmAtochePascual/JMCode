@@ -37,9 +37,12 @@ const Hero = () => {
               alt="Icono twitter"
               className="block p-2 rounded-full border-primary-color border-2" />
           </div>
-          <button className="bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl">
+          <a
+            href="Curriculum Jeancarlos Atoche Pascual.pdf"
+            download
+            className="bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl">
             Descargar CV
-          </button>
+          </a>
         </div>
       </div>
 

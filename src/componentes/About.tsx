@@ -25,9 +25,12 @@ const About = () => {
             className="w-full h-full rounded-lg object-cover loading-lazy" />
         </div>
 
-        <button className="w-full mt-4 bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl md:w-auto">
+        <a
+          href="Curriculum Jeancarlos Atoche Pascual.pdf"
+          download
+          className="w-full mt-4 bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl md:w-auto">
           Descargar CV
-        </button>
+        </a>
       </div>
 
 
