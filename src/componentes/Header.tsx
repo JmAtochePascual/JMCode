@@ -4,7 +4,7 @@ const Header = () => {
       <div className="w-11/12 max-w-7xl mx-auto flex flex-col items-center gap-4 md:flex-row md:justify-between">
         <div className="flex items-center gap-2">
           <img
-            src="/usuario.jpg"
+            src="usuario.jpg"
             alt="Imagem do logo"
             className="w-10 h-10 rounded-full"
           />
