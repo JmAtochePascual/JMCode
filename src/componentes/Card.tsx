@@ -9,7 +9,7 @@ type CardProps = {
 
 const Card = ({ title, description, image, urlPage, urlCode, iconos }: CardProps) => {
   return (
-    <article className="p-4 rounded-lg shadow-md max-w-md bg-card">
+    <article className="p-4 pb-6 rounded-lg shadow-md max-w-md bg-card">
       <img
         src={image}
         alt="Proyecto 1"
