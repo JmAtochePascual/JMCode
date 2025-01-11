@@ -4,9 +4,10 @@ type CardProps = {
   image: string;
   urlPage: string;
   urlCode: string;
+  iconos: string[];
 }
 
-const Card = ({ title, description, image, urlPage, urlCode }: CardProps) => {
+const Card = ({ title, description, image, urlPage, urlCode, iconos }: CardProps) => {
   return (
     <article className="p-4 rounded-lg shadow-md max-w-md bg-card">
       <img
@@ -16,6 +17,18 @@ const Card = ({ title, description, image, urlPage, urlCode }: CardProps) => {
       <h3 className="my-4 text-xl font-bold text-center text-white">{title}</h3>
 
       <p className="mb-8 text-sm text-center text-white">{description}</p>
+
+      <div className="mb-8 flex justify-center gap-4">
+        {
+          iconos.map((icono) => (
+            <img
+              src={`/icons/icono-${icono}.svg`}
+              alt={icono}
+              key={icono}
+              className="w-14 h-14 p-2 rounded-full border-primary-color border" />
+          ))
+        }
+      </div>
 
       <div className="flex flex-col gap-4 justify-between md:flex-row">
         <a

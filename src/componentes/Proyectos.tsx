@@ -12,6 +12,7 @@ const Proyectos = () => {
           image="https://i.postimg.cc/MKBGMPrn/cafeteria.png"
           urlPage="https://jmatochepascual.github.io/Cafeteria/"
           urlCode="https://github.com/JmAtochePascual/Cafeteria"
+          iconos={['mongo', 'vite', 'tailwind', 'react']}
         />
         <Card
           title="NUCLEUS"
@@ -19,6 +20,7 @@ const Proyectos = () => {
           image="https://i.postimg.cc/7P5ZmJG8/600shots-so.png"
           urlPage="https://jmatochepascual.github.io/Nucleus/"
           urlCode="https://github.com/JmAtochePascual/Nucleus"
+          iconos={['mongo', 'vite', 'tailwind', 'react']}
         />
         <Card
           title="TECHPRO"
@@ -26,6 +28,7 @@ const Proyectos = () => {
           image="https://i.postimg.cc/FK2N6DkM/techpro.png"
           urlPage="https://jmatochepascual.github.io/TechPRO/"
           urlCode="https://github.com/JmAtochePascual/TechPRO"
+          iconos={['mongo', 'vite', 'tailwind', 'react']}
         />
         <Card
           title="ARQUITECTURA BOSQUE"
@@ -33,6 +36,7 @@ const Proyectos = () => {
           image="https://i.postimg.cc/7PzMj6dd/arquitectura.png"
           urlPage="https://jmatochepascual.github.io/Arquitectura/"
           urlCode="https://github.com/JmAtochePascual/Arquitectura"
+          iconos={['mongo', 'vite', 'tailwind', 'react']}
         />
         <Card
           title="REAL STATE"
@@ -40,6 +44,7 @@ const Proyectos = () => {
           image="https://i.postimg.cc/FsqWmWS4/realstate.png"
           urlPage="https://jmatochepascual.github.io/RealState/"
           urlCode="https://github.com/JmAtochePascual/RealState"
+          iconos={['mongo', 'vite', 'tailwind', 'react']}
         />
         <Card
           title="CAROLINA SPA"
@@ -47,6 +52,7 @@ const Proyectos = () => {
           image="https://i.postimg.cc/MGwYKhKh/carolinaspa.png"
           urlPage="https://jmatochepascual.github.io/CarolinaSpa/"
           urlCode="https://github.com/JmAtochePascual/CarolinaSpa"
+          iconos={['mongo', 'vite', 'tailwind', 'react']}
         />
       </div>
     </section>
