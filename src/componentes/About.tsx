@@ -30,7 +30,7 @@ const About = () => {
         <a
           href="Curriculum Jeancarlos Atoche Pascual.pdf"
           download
-          className="w-full mt-4 bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl md:w-auto">
+          className="inline-block w-full mt-4 bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl md:w-auto hover:scale-125 transition-all duration-300">
           Descargar CV
         </a>
       </div>

@@ -21,7 +21,7 @@ const Hero = () => {
         </p>
 
         <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end md:items-center">
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-center gap-6">
             <img
               src="icons/icono-github.svg"
               alt="Icono githuv"
@@ -40,7 +40,7 @@ const Hero = () => {
           <a
             href="Curriculum Jeancarlos Atoche Pascual.pdf"
             download
-            className="bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl">
+            className="bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl hover:scale-125 transition-all duration-300">
             Descargar CV
           </a>
         </div>
