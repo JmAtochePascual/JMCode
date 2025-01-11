@@ -3,23 +3,36 @@ import 'react-vertical-timeline-component/style.min.css';
 // Icono de trabajo
 import { BriefcaseIcon, ChevronDoubleDownIcon } from '@heroicons/react/24/solid';
 
+const config = {
+  background: 'rgba( 255, 255, 255, 0.05 )',
+  color: '#fff',
+  backdropFilter: 'blur(4px)',
+  boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+  borderRadius: '16px',
+  backDropFilter: 'blur(4px)',
+}
+
 const Experiencia = () => {
   return (
-    <section className="pt-40">
-      <h2 className="mb-20 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Experiencia</h2>
+    <section className="w-11/12 max-w-7xl mx-auto pt-40 md:pt-50">
+      <h2 className="mb-4 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Experiencia</h2>
+
+      <p className="mb-20 text-center max-w-xl mx-auto text-gray-400">
+        Descubre mi trayectoria profesional y las habilidades que he desarrollado a lo largo de los años.
+      </p>
 
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={config}
+          contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
           date="Período: 01/2018 - 12/2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
           <h3 className="text-2xl font-extrabold vertical-timeline-element-title">EXPERIENCIA 1</h3>
-          <h4 className="italic vertical-timeline-element-subtitle">Maquetador Web y Diseñador UX/UI</h4>
-          <ul className="list-disc list-inside">
+          <h4 className="mb-4 italic">Maquetador Web y Diseñador UX/UI</h4>
+          <ul className="list-disc list-inside flex flex-col gap-2">
             <li className="text-sm">
               Diseñé y maqueté sitios web responsivos utilizando HTML, CSS y Bootstrap.
             </li>
@@ -33,67 +46,80 @@ const Experiencia = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#3b82f6', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  #3b82f6' }}
+          contentStyle={config}
+          contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
           date="Período: 01/2018 - 12/2019"
           iconStyle={{ background: '#3b82f6', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
-          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">EXPERIENCIA 2</h3>
-          <h4 className="italic vertical-timeline-element-subtitle">Maquetador Web y Diseñador UX/UI</h4>
-          <ul className="list-disc list-inside">
+          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">CALIFORNIA S.A</h3>
+          <h4 className="mb-4 italic">Maquetador Web y Desarrollador Frontend</h4>
+          <ul className="list-disc list-inside flex flex-col gap-2">
             <li className="text-sm">
-              Diseñé y maqueté sitios web responsivos utilizando HTML, CSS y Bootstrap.
+              Diseñé y desarrollé interfaces web interactivas utilizando
+              JavaScript y librerías como jQuery
             </li>
             <li className="text-sm">
-              Brindé mantenimiento a páginas web, optimizando su rendimiento.
+              Colaboré con los equipos de diseño y marketing para
+              implementar campañas digitales con diseño optimizado
             </li>
             <li className="text-sm">
-              Realicé diseños básicos de interfaces y prototipos en Adobe XD para proyectos pequeños y medianos
+              Realicé la maquetación de sitios web corporativos y
+              landing pages responsivas utilizando Bootstrap.
+
             </li>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+          contentStyle={config}
+          contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
           date="Período: 01/2018 - 12/2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
-          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">EXPERIENCIA 3</h3>
-          <h4 className="italic vertical-timeline-element-subtitle">Maquetador Web y Diseñador UX/UI</h4>
-          <ul className="list-disc list-inside">
+          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">DEV MASTER PERU</h3>
+          <h4 className="mb-4 italic">Desarrollador Full Stack y Diseñador UX/UI</h4>
+          <ul className="list-disc list-inside flex flex-col gap-2">
             <li className="text-sm">
-              Diseñé y maqueté sitios web responsivos utilizando HTML, CSS y Bootstrap.
+              Diseñé wireframes y prototipos interactivos en Figma,
+              garantizando una experiencia de usuario intuitiva.
+
             </li>
             <li className="text-sm">
-              Brindé mantenimiento a páginas web, optimizando su rendimiento.
+              Implementé APIs REST con Node.js y Express, conectando
+              aplicaciones frontend con bases de datos MongoDB.
             </li>
             <li className="text-sm">
-              Realicé diseños básicos de interfaces y prototipos en Adobe XD para proyectos pequeños y medianos
+              Lideré el desarrollo frontend utilizando React y Tailwind
+              CSS, asegurando un diseño moderno y responsivo.
             </li>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: '#3b82f6', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  #3b82f6' }}
+          contentStyle={config}
+          contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
           date="Período: 01/2018 - 12/2019"
           iconStyle={{ background: '#3b82f6', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
-          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">EXPERIENCIA 4</h3>
-          <h4 className="italic vertical-timeline-element-subtitle">Maquetador Web y Diseñador UX/UI</h4>
-          <ul className="list-disc list-inside">
+          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">IDM TECHNOLOGY</h3>
+          <h4 className="mb-4 italic">Desarrollador Full Stack y Diseñador UX/UI</h4>
+          <ul className="list-disc list-inside flex flex-col gap-2">
             <li className="text-sm">
-              Diseñé y maqueté sitios web responsivos utilizando HTML, CSS y Bootstrap.
+              Realicé mantenimiento y optimización de la base de datos,
+              mejorando la velocidad de consultas y gestión de datos.
+
             </li>
             <li className="text-sm">
-              Brindé mantenimiento a páginas web, optimizando su rendimiento.
+              Participé en la migración de un proyecto interno de una
+              arquitectura monolítica a microservicios, mejorando la
+              escalabilidad del sistema.
             </li>
             <li className="text-sm">
-              Realicé diseños básicos de interfaces y prototipos en Adobe XD para proyectos pequeños y medianos
+              Participé en la creación y publicación en la "App Store" de una aplicación móvil utilizando
+              Genexus.
             </li>
           </ul>
         </VerticalTimelineElement>
