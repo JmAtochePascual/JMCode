@@ -1,3 +1,5 @@
+import Icono from "./Icono";
+
 type CardProps = {
   title: string;
   description: string;
@@ -21,11 +23,7 @@ const Card = ({ title, description, image, urlPage, urlCode, iconos }: CardProps
       <div className="mb-8 flex justify-center gap-4">
         {
           iconos.map((icono) => (
-            <img
-              src={`/icons/icono-${icono}.svg`}
-              alt={icono}
-              key={icono}
-              className="w-14 h-14 p-2 rounded-full border-primary-color border" />
+            <Icono icono={icono} key={icono} />
           ))
         }
       </div>
