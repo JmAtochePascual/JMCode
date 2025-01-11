@@ -1,50 +1,62 @@
-# React + TypeScript + Vite
+# ⚡️ PORTAFOLIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a mi portafolio personal, un espacio digital donde muestro mi trabajo como desarrollador web full stack y diseñador UX/UI. Con un diseño moderno y responsive, presento mis proyectos y habilidades de una manera atractiva y profesional. Este portafolio refleja mi pasión por crear experiencias digitales innovadoras y funcionales que combinan lo mejor del desarrollo front-end y back-end.
 
-Currently, two official plugins are available:
+## Tecnologías y Herramientas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construir interfaces de usuario.
+- **TypeScript**: Lenguaje de programación tipado que extiende JavaScript.
+- **Tailwind CSS**: Framework CSS para diseño rápido y responsive.
+- **Vite**: Herramienta de compilación rápida para desarrollo web moderno.
+- **HTML5**: Lenguaje de marcado para la estructura de la página.
+- **CSS3**: Estilos para el diseño y presentación.
+- **Git**: Sistema de control de versiones.
+- **GitHub Pages**: Plataforma para el despliegue del sitio web.
+- **Figma**: Herramienta de diseño UI/UX.
+- **Responsive Design**: Diseño adaptable a diferentes dispositivos.
 
-## Expanding the ESLint configuration
+## Estructura del Proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **src/**: Carpeta principal del código fuente
+  - **components/**: Componentes reutilizables de React
+  - **pages/**: Páginas principales de la aplicación
+  - **assets/**: Recursos estáticos (imágenes, iconos, etc.)
+  - **styles/**: Estilos globales y utilidades de Tailwind
+  - **hooks/**: Hooks personalizados de React
+  - **types/**: Definiciones de tipos TypeScript
+  - **utils/**: Funciones y utilidades comunes
+- **public/**: Archivos estáticos accesibles públicamente
+- **index.html**: Archivo HTML principal
+- **vite.config.ts**: Configuración de Vite
+- **tsconfig.json**: Configuración de TypeScript
+- **tailwind.config.js**: Configuración de Tailwind CSS
+- **package.json**: Dependencias y scripts del proyecto
 
-- Configure the top-level `parserOptions` property like this:
+## Contribución
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Si deseas contribuir al proyecto, por favor sigue estos pasos en orden:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Haz un fork del repositorio
+2. Crea una nueva rama para tu funcionalidad:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Realiza y confirma tus cambios:
+   ```bash
+   git commit -am 'Add new feature'
+   ```
+4. Sube los cambios a tu repositorio:
+   ```bash
+   git push origin feature-name
+   ```
+5. Abre un Pull Request desde tu repositorio hacia el proyecto principal
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Imagen de Rereferencia
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![](https://i.postimg.cc/VLCv80q5/portafolio.png)
+
+## ¡Visita Mi Portafolio!
+
+¿Quieres ver mi portafolio en acción? ¡Haz clic aquí! 👉 [Visitar Portafolio](https://jmatochepascual.github.io/Portafolio/)
+
+Hecho con 💙 por JMCode | ©2025 - Creando experiencias digitales innovadoras
