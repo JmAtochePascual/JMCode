@@ -1,4 +1,5 @@
-// import Typewriter from 'typewriter-effect';
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';
 
 const Hero = () => {
   return (
@@ -22,20 +23,50 @@ const Hero = () => {
 
         <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end md:items-center">
           <div className="flex justify-center gap-6">
-            <img
-              src="icons/icono-github.svg"
-              alt="Icono githuv"
-              className="block p-2 rounded-full border-primary-color border-2" />
+            <a
+              href="https://github.com/tuUsuario"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              data-tooltip-id="github"
+              data-tooltip-content="GitHub"
+            >
+              <img
+                src="icons/icono-github.svg"
+                alt="Icono github"
+                className="block p-2 rounded-full border-primary-color border-2 hover:scale-125 transition-all duration-300" />
+              <Tooltip id="github" place="top" className="!bg-primary-color !text-white" />
+            </a>
 
-            <img
-              src="icons/icono-linkedin.svg"
-              alt="Icono linkedin"
-              className="block p-2 rounded-full border-primary-color border-2" />
+            <a
+              href="https://linkedin.com/in/tuUsuario"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              data-tooltip-id="linkedin"
+              data-tooltip-content="LinkedIn"
+            >
+              <img
+                src="icons/icono-linkedin.svg"
+                alt="Icono linkedin"
+                className="block p-2 rounded-full border-primary-color border-2 hover:scale-125 transition-all duration-300" />
+              <Tooltip id="linkedin" place="top" className="!bg-primary-color !text-white" />
+            </a>
 
-            <img
-              src="icons/icono-instagram.svg"
-              alt="Icono twitter"
-              className="block p-2 rounded-full border-primary-color border-2" />
+            <a
+              href="https://instagram.com/tuUsuario"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+              data-tooltip-id="instagram"
+              data-tooltip-content="Instagram"
+            >
+              <img
+                src="icons/icono-instagram.svg"
+                alt="Icono instagram"
+                className="block p-2 rounded-full border-primary-color border-2 hover:scale-125 transition-all duration-300" />
+              <Tooltip id="instagram" place="top" className="!bg-primary-color !text-white" />
+            </a>
           </div>
           <a
             href="Curriculum Jeancarlos Atoche Pascual.pdf"
