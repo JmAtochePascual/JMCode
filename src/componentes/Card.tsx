@@ -35,7 +35,7 @@ const Card = ({ title, description, image, urlPage, urlCode, iconos }: CardProps
           href={urlPage}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full block text-center text-sm bg-primary-color hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+          className="w-full block text-center text-sm bg-primary-color hover:bg-primary-color/80 text-white font-bold py-2 px-4 rounded transition duration-300">
           Ver Proyecto
         </a>
         <a
