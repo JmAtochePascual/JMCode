@@ -23,17 +23,17 @@ const Hero = () => {
         <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end">
           <div className="flex justify-center gap-4">
             <img
-              src="/icons/icono-github.svg"
+              src="icons/icono-github.svg"
               alt="Icono githuv"
               className="block p-2 rounded-full border-primary-color border-2" />
 
             <img
-              src="/icons/icono-linkedin.svg"
+              src="icons/icono-linkedin.svg"
               alt="Icono linkedin"
               className="block p-2 rounded-full border-primary-color border-2" />
 
             <img
-              src="/icons/icono-instagram.svg"
+              src="icons/icono-instagram.svg"
               alt="Icono twitter"
               className="block p-2 rounded-full border-primary-color border-2" />
           </div>
@@ -46,7 +46,7 @@ const Hero = () => {
       {/* animate-pulse */}
 
       <img
-        src="/Img-user.png"
+        src="Img-user.png"
         alt="Imagen de Jeancarlos"
         className="w-11/12 max-w-80 h-auto md:justify-self-end md:max-w-96 lg:w-full" />
     </section>
