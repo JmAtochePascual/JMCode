@@ -12,10 +12,12 @@ type CardProps = {
 const Card = ({ title, description, image, urlPage, urlCode, iconos }: CardProps) => {
   return (
     <article className="p-4 pb-6 rounded-lg shadow-md max-w-md bg-card">
-      <img
-        src={image}
-        alt="Proyecto 1"
-        className="w-full h-auto rounded-lg" />
+      <div className="overflow-hidden">
+        <img
+          src={image}
+          alt="Proyecto 1"
+          className="w-full h-auto rounded-lg hover:scale-150 transition-all duration-300" />
+      </div>
       <h3 className="my-4 text-xl font-bold text-center text-white">{title}</h3>
 
       <p className="mb-8 text-sm text-center text-white">{description}</p>
