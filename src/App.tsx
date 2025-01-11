@@ -5,6 +5,7 @@ import Hero from "./componentes/Hero"
 import Proyectos from "./componentes/Proyectos"
 import Indicadores from "./componentes/Indicadores"
 import Skills from "./componentes/Skills"
+import Testomonios from "./componentes/Testomonios"
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <Proyectos />
       <Skills />
       <About />
+      <Testomonios />
     </>
+
   )
 }
 
