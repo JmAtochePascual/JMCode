@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <section className="w-11/12 max-w-7xl mx-auto pt-32 grid gap-20 justify-items-center md:pt-40 md:grid-cols-[2fr_1fr] md:justify-items-start">
+    <section className="w-11/12 max-w-7xl mx-auto pt-32 mb-40 grid gap-20 justify-items-center md:pt-40 md:grid-cols-[2fr_1fr] md:justify-items-start">
 
       <div className="max-w-md flex flex-col gap-4 md:items-start md:max-w-lg lg:max-w-4xl">
         <p className="text-lg text-center text-white md:text-left">Hola! Soy Jeancarlos</p>
@@ -37,7 +37,7 @@ const Hero = () => {
               alt="Icono twitter"
               className="block p-2 rounded-full border-primary-color border-2" />
           </div>
-          <button className="bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80">
+          <button className="bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl">
             Descargar CV
           </button>
         </div>
