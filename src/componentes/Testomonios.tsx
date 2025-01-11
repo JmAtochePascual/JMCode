@@ -2,7 +2,7 @@ import Testimonio from "./Testimonio"
 
 const Testomonios = () => {
   return (
-    <section className="w-11/12 max-w-7xl mx-auto py-10 md:pb-20 lg:pb-40">
+    <section className="w-11/12 max-w-7xl mx-auto py-10 md:pb-20 lg:pb-40" id="testimonios">
       <h2 className="mb-4 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Testimonios</h2>
 
       <p className="mb-20 text-center max-w-xl mx-auto text-gray-400">

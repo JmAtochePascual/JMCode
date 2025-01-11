@@ -12,11 +12,11 @@ const Header = () => {
         </div>
 
         <nav className="hidden md:flex items-center gap-4 lg:gap-6">
-          <a href="/" className="text-white text-lg">Inicio</a>
-          <a href="/" className="text-white text-lg">Experiencias</a>
-          <a href="/" className="text-white text-lg">Proyectos</a>
-          <a href="/" className="text-white text-lg">Sobre mí</a>
-          <a href="/" className="text-white text-lg">Contato</a>
+          <a href="#hero" className="text-white text-lg">Inicio</a>
+          <a href="#experiencia" className="text-white text-lg">Experiencias</a>
+          <a href="#proyectos" className="text-white text-lg">Proyectos</a>
+          <a href="#about" className="text-white text-lg">Sobre mí</a>
+          <a href="#testimonios" className="text-white text-lg">Testimonios</a>
         </nav>
       </div>
     </header>

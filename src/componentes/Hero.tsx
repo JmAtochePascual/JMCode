@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <section className="w-11/12 max-w-7xl mx-auto pt-32 mb-40 grid gap-20 justify-items-center md:pt-40 md:grid-cols-[2fr_1fr] md:justify-items-start">
+    <section className="w-11/12 max-w-7xl mx-auto pt-32 mb-40 grid gap-20 justify-items-center md:pt-40 md:grid-cols-[2fr_1fr] md:justify-items-start" id="hero">
 
       <div className="max-w-md flex flex-col gap-4 md:items-start md:max-w-lg lg:max-w-4xl">
         <p className="text-lg text-center text-white md:text-left">Hola! Soy Jeancarlos</p>
