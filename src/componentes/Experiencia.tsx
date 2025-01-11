@@ -49,7 +49,7 @@ const Experiencia = () => {
           contentStyle={config}
           contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
           date="Período: 01/2018 - 12/2019"
-          iconStyle={{ background: '#3b82f6', color: '#fff' }}
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
           <h3 className="text-2xl font-extrabold vertical-timeline-element-title">CALIFORNIA S.A</h3>
@@ -101,7 +101,7 @@ const Experiencia = () => {
           contentStyle={config}
           contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
           date="Período: 01/2018 - 12/2019"
-          iconStyle={{ background: '#3b82f6', color: '#fff' }}
+          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
           <h3 className="text-2xl font-extrabold vertical-timeline-element-title">IDM TECHNOLOGY</h3>
