@@ -12,7 +12,7 @@ const Hero = () => {
             Web <span className="text-primary-color">Developer+</span>
           </h1>
           <p className="text-3xl font-bold text-center text-white sm:text-4xl md:text-left md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
-            UX/XUI <span className="text-primary-color">Designer</span>
+            UX/UI <span className="text-primary-color">Designer</span>
           </p>
         </div>
 
