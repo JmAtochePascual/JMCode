@@ -19,10 +19,12 @@ const About = () => {
             </p>
           </div>
 
-          <img
-            src="./about.jpg"
-            alt="Sobre mí"
-            className="w-full h-full rounded-lg object-cover loading-lazy" />
+          <div className="overflow-hidden">
+            <img
+              src="./about.jpg"
+              alt="Sobre mí"
+              className="w-full h-full rounded-lg object-cover loading-lazy hover:scale-150 transition-all duration-300 hover:rotate-12" />
+          </div>
         </div>
 
         <a
