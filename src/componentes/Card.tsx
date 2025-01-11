@@ -1,28 +1,35 @@
+type CardProps = {
+  title: string;
+  description: string;
+  image: string;
+  urlPage: string;
+  urlCode: string;
+}
 
-const Card = () => {
+const Card = ({ title, description, image, urlPage, urlCode }: CardProps) => {
   return (
-    <article className="bg-gray-800 p-4 rounded-lg shadow-md max-w-md">
+    <article className="p-4 rounded-lg shadow-md max-w-md bg-card">
       <img
-        src="https://i.postimg.cc/MKBGMPrn/cafeteria.png"
+        src={image}
         alt="Proyecto 1"
         className="w-full h-auto rounded-lg" />
-      <h3 className="mt-4 text-xl font-bold text-center text-white">Cafeteria</h3>
-      <p className="mt-2 text-sm text-center text-gray-400">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-      </p>
-      <div className="mt-4 flex flex-col gap-4 justify-between md:flex-row">
+      <h3 className="my-4 text-xl font-bold text-center text-white">{title}</h3>
+
+      <p className="mb-8 text-sm text-center text-white">{description}</p>
+
+      <div className="flex flex-col gap-4 justify-between md:flex-row">
         <a
-          href="https://github.com/jeancarlosatoche/Cafeteria"
+          href={urlPage}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full block text-center text-sm bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+          className="w-full block text-center text-sm bg-primary-color hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
           Ver Proyecto
         </a>
         <a
-          href="https://github.com/jeancarlosatoche/Cafeteria"
+          href={urlCode}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full block text-center text-sm bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+          className="w-full block text-center text-sm border-primary-color border text-white font-bold p-2 rounded transition duration-300">
           Ver código
         </a>
       </div>
