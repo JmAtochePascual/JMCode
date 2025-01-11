@@ -20,7 +20,7 @@ const Hero = () => {
           Mi objetivo es construir soluciones digitales completas, desde interfaces intuitivas hasta sistemas backend eficientes y escalables.
         </p>
 
-        <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end">
+        <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end md:items-center">
           <div className="flex justify-center gap-4">
             <img
               src="icons/icono-github.svg"
