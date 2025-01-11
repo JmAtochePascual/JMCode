@@ -17,7 +17,7 @@ const Experiencia = () => {
     <section className="w-11/12 max-w-7xl mx-auto pt-40 md:pt-50" id="experiencia">
       <h2 className="mb-4 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Experiencia</h2>
 
-      <p className="mb-20 text-center max-w-xl mx-auto text-gray-400">
+      <p className="mb-20 text-center max-w-xl mx-auto text-white">
         Descubre mi trayectoria profesional y las habilidades que he desarrollado a lo largo de los años.
       </p>
 
