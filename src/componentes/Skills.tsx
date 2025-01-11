@@ -1,23 +1,28 @@
 import Icono from "./Icono"
+import Marquee from 'react-fast-marquee';
 
-const skills = ['react', 'tailwind', 'vite', 'typescript', 'node', 'mongo', 'postgres', 'github']
+const skills = ['asana', 'babel', 'bootstrap', 'confluence', 'css', 'discord', 'express', 'figma', 'git', 'html', 'javascript', 'less', 'meet', 'miro', 'notion', 'github', 'mongo', 'node', 'postgres', 'react', 'tailwind', 'typescript', 'vite', 'slack', 'teams', 'trello', 'webpack']
 
 const Skills = () => {
   return (
     <section className="py-20 bg-[#041135] border-primary-color border-y-4">
-      <div className="w-11/12 mx-auto max-w-7xl">
+      <div>
         <h2 className="mb-4 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Skills</h2>
         <p className="mb-20 text-center max-w-xl mx-auto text-white">
           Estas son algunas de las tecnologías que he trabajado y aprendido durante mi carrera.
         </p>
 
-        <div className="grid grid-cols-4 gap-4 justify-items-center md:grid-cols-6 lg:grid-cols-8 ">
-          {
-            skills.map((skill) => (
+        <Marquee
+          speed={50}
+          gradient={false}
+          direction="left"
+        >
+          <div className="flex gap-8 px-4">
+            {skills.map((skill) => (
               <Icono icono={skill} key={skill} />
-            ))
-          }
-        </div>
+            ))}
+          </div>
+        </Marquee>
       </div>
     </section>
   )
