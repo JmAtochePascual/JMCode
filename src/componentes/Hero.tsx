@@ -4,7 +4,9 @@ import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
   return (
-    <section className="w-11/12 max-w-7xl mx-auto pt-32 mb-40 grid gap-20 justify-items-center md:pt-40 md:grid-cols-[2fr_1fr] md:justify-items-start md:gap-10" id="hero">
+    <section
+      id="hero"
+      className="w-11/12 max-w-7xl mx-auto pt-16 mb-20 grid gap-20 justify-items-center md:pt-40 md:mb-40 md:grid-cols-[2fr_1fr] md:justify-items-start md:gap-10" >
 
       <div className="max-w-md flex flex-col gap-4 md:items-start md:max-w-lg lg:max-w-4xl">
         <p className="text-lg text-center text-white md:text-left">Hola! soy <span className="font-bold text-primary-color">JMCode</span></p>
