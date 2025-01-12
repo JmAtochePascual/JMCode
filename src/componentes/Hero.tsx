@@ -1,20 +1,29 @@
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css';
+import Typewriter from 'typewriter-effect';
 
 const Hero = () => {
   return (
-    <section className="w-11/12 max-w-7xl mx-auto pt-32 mb-40 grid gap-20 justify-items-center md:pt-40 md:grid-cols-[2fr_1fr] md:justify-items-start" id="hero">
+    <section className="w-11/12 max-w-7xl mx-auto pt-32 mb-40 grid gap-20 justify-items-center md:pt-40 md:grid-cols-[2fr_1fr] md:justify-items-start md:gap-10" id="hero">
 
       <div className="max-w-md flex flex-col gap-4 md:items-start md:max-w-lg lg:max-w-4xl">
-        <p className="text-lg text-center text-white md:text-left">Hola! Soy Jeancarlos</p>
+        <p className="text-lg text-center text-white md:text-left">Hola! soy <span className="font-bold text-primary-color">JMCode</span></p>
 
         <div>
           <h1 className="mb-2 text-3xl font-bold text-center text-white sm:text-4xl md:text-left md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
-            Web <span className="text-primary-color">Developer+</span>
+            Desarrollador{' '}
+            <span className="text-primary-color">
+              <Typewriter
+                options={{
+                  strings: ['FullStack', 'Backend', 'Frontend', 'Diseñador UX/UI'],
+                  autoStart: true,
+                  loop: true,
+                  deleteSpeed: 50,
+                  delay: 50,
+                }}
+              />
+            </span>
           </h1>
-          <p className="text-3xl font-bold text-center text-white sm:text-4xl md:text-left md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl">
-            UX/UI <span className="text-primary-color">Designer</span>
-          </p>
         </div>
 
         <p className="mb-8 text-center italic text-white md:text-left md:max-w-sm lg:max-w-md 2xl:text-xl 2xl:max-w-lg">
@@ -80,9 +89,10 @@ const Hero = () => {
       {/* animate-pulse */}
 
       <img
-        src="Img-user.png"
+        src="img-home.png"
+        // src="Img-user.png"
         alt="Imagen de Jeancarlos"
-        className="w-11/12 max-w-80 h-auto md:justify-self-end md:max-w-96 lg:w-full" />
+        className="w-full max-w-80 h-auto rounded-2xl md:justify-self-end md:max-w-96 lg:w-full" />
     </section>
   )
 }
