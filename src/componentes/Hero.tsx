@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end md:items-center">
           <div className="flex justify-center gap-6">
             <a
-              href="https://github.com/tuUsuario"
+              href="https://github.com/JmAtochePascual"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
@@ -39,7 +39,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/tuUsuario"
+              href="https://www.linkedin.com/feed/"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
@@ -54,7 +54,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://instagram.com/tuUsuario"
+              href="https://www.instagram.com/atochepascual17"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
