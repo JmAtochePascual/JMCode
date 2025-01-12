@@ -8,10 +8,12 @@ const skills = ['asana', 'babel', 'bootstrap', 'confluence', 'css', 'discord', '
 const Skills = () => {
   return (
     <section className="py-10 bg-[#041135] border-primary-color border-y-4">
-      <Cabecera
-        title="Skills"
-        description="Estas son algunas de las tecnologías con las que trabajo para crear soluciones digitales innovadoras y eficientes."
-      />
+      <div className="w-11/12 max-w-7xl mx-auto">
+        <Cabecera
+          title="Skills"
+          description="Estas son algunas de las tecnologías con las que trabajo para crear soluciones digitales innovadoras y eficientes."
+        />
+      </div>
 
       <Marquee
         speed={50}

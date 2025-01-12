@@ -40,7 +40,7 @@ const Hero = () => {
           hasta sistemas backend eficientes y escalables.
         </p>
 
-        <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end md:items-center">
+        <div className="w-full flex flex-col gap-4 md:flex-row-reverse md:justify-end md:items-center md:gap-8">
           <div className="flex justify-center gap-6">
             {
               redesSociales.map((redSocial) =>

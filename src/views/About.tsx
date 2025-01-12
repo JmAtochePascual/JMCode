@@ -1,3 +1,4 @@
+import ButtonDownload from "../components/ButtonDescargar"
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
           Sobre mí
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8 items-center">
+        <div className="mb-8 grid md:grid-cols-2 gap-8 items-center">
           <div className="flex flex-col gap-4">
             <p className="text-white leading-8">¡Hola! Soy Jean Carlos, un desarrollador web y diseñador UX/UI apasionado por crear soluciones digitales completas. Con conocimientos en Frontend, Backend y Diseño UX/UI, domino herramientas como React, Node.js y Tailwind CSS, además de metodologías ágiles para garantizar un flujo de trabajo eficiente en equipo.
             </p>
@@ -27,12 +28,7 @@ const About = () => {
           </div>
         </div>
 
-        <a
-          href="Curriculum Jeancarlos Atoche Pascual.pdf"
-          download
-          className="inline-block w-full mt-4 bg-primary-color text-white px-4 py-2 rounded-md hover:bg-primary-color/80 shadow-2xl md:w-auto hover:scale-125 transition-all duration-300 text-center">
-          Descargar CV
-        </a>
+        <ButtonDownload />
       </div>
 
 
