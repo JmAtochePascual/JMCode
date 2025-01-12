@@ -48,7 +48,7 @@ const Experiencia = () => {
           className="vertical-timeline-element--work"
           contentStyle={config}
           contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
-          date="Período: 01/2018 - 12/2019"
+          date="Período: 02/2020 - 06/2021"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
@@ -74,7 +74,7 @@ const Experiencia = () => {
           className="vertical-timeline-element--work"
           contentStyle={config}
           contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
-          date="Período: 01/2018 - 12/2019"
+          date="Período: 07/2021 - 07/2022"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
@@ -100,7 +100,7 @@ const Experiencia = () => {
           className="vertical-timeline-element--work"
           contentStyle={config}
           contentArrowStyle={{ borderRight: '7px solid  rgba( 255, 255, 255, 0.05 )' }}
-          date="Período: 01/2018 - 12/2019"
+          date="Período: 08/2023 - 30/12/2024"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
@@ -129,7 +129,7 @@ const Experiencia = () => {
           icon={<ChevronDoubleDownIcon />}
         />
       </VerticalTimeline>
-    </section>
+    </section >
   )
 }
 
