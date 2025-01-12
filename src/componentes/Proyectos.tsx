@@ -11,7 +11,7 @@ const Proyectos = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
         <Card
           title="LA CAFÉRIA"
-          description="Bienvenido a La Cafería, un proyecto web que captura la esencia y pasión por el café de calidad. Nuestro sitio web está diseñado para transportar a los visitantes a una experiencia única, donde cada elemento visual..."
+          description="Bienvenido a La Cafería, un proyecto web que captura la esencia y pasión por el café de calidad. Nuestro sitio web está diseñado para transportar a los visitantes a una experiencia única, donde cada elemento visual tiene un diseño..."
           image="https://i.postimg.cc/MKBGMPrn/cafeteria.png"
           urlPage="https://jmatochepascual.github.io/Cafeteria/"
           urlCode="https://github.com/JmAtochePascual/Cafeteria"
