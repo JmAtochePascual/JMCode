@@ -1,4 +1,4 @@
-import Testimonio from "./Testimonio"
+import Testimonio from "../components/Testimonio"
 
 const Testomonios = () => {
   return (

@@ -1,4 +1,4 @@
-import Icono from "./Icono"
+import Icono from "../components/Icono"
 import Marquee from 'react-fast-marquee';
 import 'react-tooltip/dist/react-tooltip.css';
 

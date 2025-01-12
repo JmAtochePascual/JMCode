@@ -1,13 +1,13 @@
-import About from "./componentes/About"
-import Experiencia from "./componentes/Experiencia"
-import Header from "./componentes/Header"
-import Hero from "./componentes/Hero"
-import Proyectos from "./componentes/Proyectos"
-import Indicadores from "./componentes/Indicadores"
-import Skills from "./componentes/Skills"
-import Testomonios from "./componentes/Testomonios"
-import Footer from "./componentes/Footer"
-import Menu from "./componentes/Menu"
+import About from "./views/About"
+import Experiencia from "./views/Experiencia"
+import Header from "./views/Header"
+import Hero from "./views/Hero"
+import Proyectos from "./views/Proyectos"
+import Indicadores from "./views/Indicadores"
+import Skills from "./views/Skills"
+import Testomonios from "./views/Testomonios"
+import Footer from "./views/Footer"
+import Menu from "./views/Menu"
 
 function App() {
   return (
