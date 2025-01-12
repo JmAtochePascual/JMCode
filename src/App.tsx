@@ -7,6 +7,7 @@ import Indicadores from "./componentes/Indicadores"
 import Skills from "./componentes/Skills"
 import Testomonios from "./componentes/Testomonios"
 import Footer from "./componentes/Footer"
+import Menu from "./componentes/Menu"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Testomonios />
       <Footer />
+      <Menu />
     </>
 
   )
