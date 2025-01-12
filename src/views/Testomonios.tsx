@@ -10,44 +10,52 @@ const Testomonios = () => {
 
       <div className="flex gap-4 overflow-x-auto scrollbar-thin scrollbar-thumb-primary-color scrollbar-track-gray-300 md:grid md:grid-cols-2 lg:grid-cols-4">
         <Testimonio
+          imagen="img-female-01.png"
           nombre="Sofía López"
           cargo="Directora Creativa"
-          testimonio="El servicio fue excepcional, con atención a cada detalle y resultados que superaron mis expectativas."
+          testimonio="Trabajar con Jean fue una experiencia transformadora. Su enfoque en el cliente y su dedicación a la excelencia son verdaderamente inspiradoras."
         />
         <Testimonio
+          imagen="img-male-01.png"
           nombre="Mario Torres"
           cargo="Jefe de Tecnología"
-          testimonio="La experiencia de trabajar con este equipo fue excelente. Su enfoque profesional marca la diferencia siempre."
+          testimonio="Demostró ser un líder con visión y un profesional comprometido con el éxito de la empresa, siempre buscando la innovación y la excelencia en cada proyecto."
         />
         <Testimonio
+          imagen="img-female-02.png"
           nombre="Clara Gómez"
           cargo="Gerente General"
-          testimonio="Un equipo comprometido que entiende tus necesidades. Su trabajo refleja calidad y atención a los detalles."
+          testimonio="Mi experiencia trabajando con Jean fue grata. Su enfoque en la excelencia y su dedicación a la innovación son verdaderamente inspiradoras siempre."
         />
         <Testimonio
+          imagen="img-male-02.png"
           nombre="Luis Ramírez"
           cargo="Consultor de Negocios"
-          testimonio="Desde el inicio hasta el final, su dedicación y profesionalismo hicieron de esta experiencia algo único."
+          testimonio="Atoche es una persona profesional con una visión clara, su proactividad y su dedicación llaman la atención a la hora de trabajar en equipo."
         />
         <Testimonio
+          imagen="img-female-03.png"
           nombre="Elena Vargas"
           cargo="Líder de Innovación"
-          testimonio="Altamente recomendados. Sus ideas innovadoras y su dedicación generan resultados que impresionan mucho."
+          testimonio="JeanCarlos siempre esta dispuesto a seguir nuevas tendencias, ideas arriegandose a la hora de proponer nuevas ideas para alcanzar el objetivo."
         />
         <Testimonio
+          imagen="img-male-03.png"
           nombre="Andrés Peña"
-          cargo="Analista Financiero"
-          testimonio="Su servicio se destaca por la puntualidad y calidad. Estoy muy satisfecho con el trabajo que realizaron."
+          cargo="Analista Desarrollador"
+          testimonio="Me gusta trabajar con JeanCarlos, siempre esta dispuesto a aseguir las buenas practicas de desarrollo de software. siempre buscando la mejora continua."
         />
         <Testimonio
+          imagen="img-female-04.png"
           nombre="Camila Flores"
           cargo="Diseñadora UX"
-          testimonio="Un equipo increíble que logró interpretar nuestras necesidades y entregar resultados más allá de lo esperado."
+          testimonio="La imagginación de JeanCarlos es impresionante, me gusta su proactividad, es algo que siempre voy a recordar. excelente persona y profesional."
         />
         <Testimonio
+          imagen="img-male-04.png"
           nombre="Javier Soto"
-          cargo="Estratega de Marca"
-          testimonio="El nivel de profesionalismo y dedicación de este equipo es incomparable. Estoy encantado con el resultado."
+          cargo="Gerente de Proyectos"
+          testimonio="Excelente persona, siempre esta dispuesto a proponer nuevas tecnologías, siempre esta estudiando y certificandose en nuevas tecnologías para mejorar."
         />
       </div>
     </section>
