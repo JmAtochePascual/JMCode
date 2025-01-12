@@ -3,6 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 // Icono de trabajo
 import { BriefcaseIcon, ChevronDoubleDownIcon } from '@heroicons/react/24/solid';
+import Cabecera from '../components/Cabecera';
 
 const config = {
   background: 'rgba( 255, 255, 255, 0.05 )',
@@ -27,11 +28,10 @@ const Experiencia = () => {
 
   return (
     <section className="w-11/12 max-w-7xl mx-auto pt-40 md:pt-50" id="experiencia">
-      <h2 className="mb-4 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Experiencia</h2>
-
-      <p className="mb-20 text-center max-w-xl mx-auto text-white">
-        Descubre mi trayectoria profesional y las habilidades que he desarrollado a lo largo de los años.
-      </p>
+      <Cabecera
+        title="Experiencia"
+        description="Descubre mi trayectoria profesional y los logros que he alcanzado a lo largo de los años."
+      />
 
       <VerticalTimeline animate={!isMobile}>
         <VerticalTimelineElement

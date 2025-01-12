@@ -1,12 +1,13 @@
+import Cabecera from "../components/Cabecera"
 import Card from "../components/Card"
 
 const Proyectos = () => {
   return (
     <section className="w-11/12 max-w-7xl mx-auto pt-20 mb-20 md:pt-30 lg:pt-40 lg:mb-40" id="proyectos">
-      <h2 className="mb-4 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Proyectos</h2>
-      <p className="mb-20 text-center max-w-xl mx-auto text-white">
-        Desde proyectos personales hasta trabajos en equipo, aquí encontrarás una muestra de mi trabajo.
-      </p>
+      <Cabecera
+        title="Proyectos"
+        description="Explora mi portafolio de proyectos, donde he construido soluciones digitales innovadoras y eficientes. Recuerda que puedes ver más de mis proyectos en mi repositorio de GitHub."
+      />
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
         <Card
