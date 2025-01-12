@@ -21,9 +21,9 @@ const About = () => {
 
           <div className="overflow-hidden">
             <img
-              src="./about.jpg"
+              src="about.png"
               alt="Sobre mí"
-              className="w-full h-full rounded-lg object-cover loading-lazy hover:scale-150 transition-all duration-300 hover:rotate-12" />
+              className="w-full h-full object-cover object-bottom loading-lazy hover:scale-150 transition-all duration-300 hover:rotate-12" />
           </div>
         </div>
 

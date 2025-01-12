@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 // Icono de trabajo
@@ -13,6 +14,17 @@ const config = {
 }
 
 const Experiencia = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <section className="w-11/12 max-w-7xl mx-auto pt-40 md:pt-50" id="experiencia">
       <h2 className="mb-4 text-4xl font-bold text-center text-white md:text-5xl lg:text-6xl uppercase">Experiencia</h2>
@@ -21,7 +33,7 @@ const Experiencia = () => {
         Descubre mi trayectoria profesional y las habilidades que he desarrollado a lo largo de los años.
       </p>
 
-      <VerticalTimeline>
+      <VerticalTimeline animate={!isMobile}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={config}
