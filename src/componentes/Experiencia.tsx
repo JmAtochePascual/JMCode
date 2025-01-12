@@ -30,7 +30,7 @@ const Experiencia = () => {
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<BriefcaseIcon />}
         >
-          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">EXPERIENCIA 1</h3>
+          <h3 className="text-2xl font-extrabold vertical-timeline-element-title">FREELANCER</h3>
           <h4 className="mb-4 italic">Maquetador Web y Diseñador UX/UI</h4>
           <ul className="list-disc list-inside flex flex-col gap-2">
             <li className="text-sm">
